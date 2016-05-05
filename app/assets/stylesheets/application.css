@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+body {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 20px;
+    	
+}
+
+.container label {
+	padding-right: 15px;
+	.button {
+		padding: .5em 1em;
+		border-radius: 0.2em;
+		font-weight: 100;
+	}
+
+}
+
+.jumbotron {
+	background-image: url('sky.jpeg');
+	width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+	background-position: center;
+	padding: 10%;
+	margin-top: -40px;
+}
+
+.jumbotron h1 {
+	color: #f7fafe;
+	font-size: 150px;
+	top: 18;
+	left: 0;
+	font-family: 'Fjalla One', sans-serif;
+	padding-left: 20px;
+
+}
+
+.jumbotron h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+}
+
+h1 h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+

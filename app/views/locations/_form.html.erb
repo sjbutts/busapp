@@ -1,3 +1,16 @@
+<div class="container">
+<%= simple_form_for(@location) do |f| %>
+ <%= f.error_notification %>
+<%= f.input  :address %>
+<br>
+<%= f.input :city %>
+
+<br>
+
+<%= f.button :submit %>
+<% end %>
+</div>
+<!-- 
 <%= form_for(@location) do |f| %>
   <% if @location.errors.any? %>
     <div id="error_explanation">
@@ -22,4 +35,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
-<% end %>
+<% end %> -->
+
